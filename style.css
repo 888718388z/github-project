@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 75vh;
+}
+
+header .menu {
+    width: 100%;
+    height: 100px;
+}
+
+.menu .logo{
+    float: left;
+    width: 20%;
+    padding: 25px 30px;
+}
+
+.menu .logo img{
+    width: 20%;
+    float: left;
+}
+
+.menu .logo h1{
+    font-size: 25px;
+    float: left;
+    padding-left: 15px;
+    color: rgb(196,94,16);
+}
+
+.menu ul {
+    width: 30%;
+    float: left;
+    margin-left: 40%; 
+    padding-top: 40px;
+}
+
+.menu ul li {
+     float: left;
+    padding: 0 20px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(15,15,15);
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    color: rgb( 196, 94,15);
+}
+
+.header-content{
+    width: 100%;
+    height: 70vh;
+    background: url(./images/header-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 60% 0 50px;
+    color:#fff;
+}
+
+.header-content h1{
+    font-size: 4rem;
+}
+
+.header-content p{
+    font-style: 1 rem;
+    padding: 20px 0 50px 0;
+}
+
+.header-content button{
+    color:#fff;
+    background: rgb( 196, 94,15);
+    padding: 10px 20px;
+    border: none;
+}
+
+.header-content button:hover{
+    color:rgb(196,94,16);
+    background: #fff;
+    border: 3px solid rgb(196,94,16);
+}
+
+.about{
+    width: 100%;
+    height: 90vh;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.about .text{
+    width: 50%;
+    float: left;
+    height: 90%;
+}
+
+.about .text{
+    width: 50%;
+    float: left;
+    height: 90%;
+    padding: 100px 200px 0 0;
+}
+
+.about .text h1 {
+    font-size: 3rem;
+    font-family: serif;
+    color: rgb(52,52,52);
+} 
+
+.about .text p {
+    font-size: 1rem;
+    color: rgb(82,82,82);
+    padding: 15px 0 25px;
+}
+
+.about .text button{
+    font-size: 1rem;
+    color:rgb(34,34,34);
+    border: 2px solid rgb(34,34,34);
+    background: none;
+    padding: 10px 15px;
+}
+
+.about .text button:hover{
+    color: #fff;
+    border: none ;
+    background: rgb(34,34,34);
+}
+
+.about img{
+    width: 50%;
+    float: left;
+    height: 90; 
+}
+
+
+.info{
+    width: 100%;
+    height: 250px;
+    background: rgb(18,23,51);
+    color:#fff;
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.info h3 q{
+    font-size: 30px;
+    font-family: serif;
+    font-weight: lighter;
+}
+
+.info p{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+
+.services {
+    width: 90%;
+    height: 70vh;
+    
+    margin: 5%;
+}
+
+.services .box {
+    width: 32%;
+    height: 100%;
+    float: left;
+}
+
+.services .center {
+    margin: 0 2%;
+}
+
+.services .box img {
+    width: 100%;
+    height: 70%;
+    float: left;
+}
+
+.services .box .matn {
+    width: 100%;
+    height: 30%;
+    float: left;
+    padding: 5% 15% 0 0;
+    color: rgb(34, 34, 34);
+}
+
+.services .box .matn h2 {
+    font-size: 30px;
+    font-family:  serif;
+}
+
+.services .box .matn p {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.services .box .matn button {
+    font-size: 1rem;
+    color: rgb(34, 34, 34);
+    border: 2px solid rgb(34, 34, 34);
+    background: none;
+    padding: 7px 10px;
+}
+
+.services .box .matn button:hover {
+    color: #fff;
+    background: rgb(34, 34, 34);
+    
+}
+
+
+footer{
+    width: 100%;
+    height: 300px;
+    background: rgb(18,23,51);
+    color: #fff;
+    padding: 100px 200px;
+}
+
+footer .txt{
+    width: 40%;
+    float: left;
+}
+
+footer .txt h2{
+    font-size: 30px;
+}
+
+footer .txt address{
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+footer .links{
+    width: 50%;
+    margin-left: 10%;
+    float: left;
+}
+
+footer .links ul{
+    float: left;
+    width: 16%;
+    margin: 0 2%;
+}
+
+footer .links ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+footer .links ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer .links ul li a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 850px){    
+    header{
+        width: 100%;
+        height: 40vh;
+    }
+    
+    header .menu {
+        width: 100%;
+        height: 80px;
+    }
+    
+    .menu .logo{
+        width: 20%;
+        padding: 25px 30px;
+    }
+    
+    .menu .logo img{
+        width: 20%;
+        float: left;
+    }
+    
+    .menu .logo h1{
+        font-size: 12px;
+        float: left;
+        padding-left: 8px;
+    }
+    
+    .menu ul {
+        width: 40%;
+        float: left;
+        margin-left: 35%; 
+        padding-top: 25px;
+    }
+    
+    .menu ul li {
+         float: left;
+        padding: 0 20px;
+        list-style: none;
+    }
+    
+    .menu ul li a {
+        font-size: 18px;
+    }
+    
+    .header-content{
+        width: 100%;
+        height: 40vh;
+        padding: 100px 60% 0 50px;
+    }
+    
+    .header-content h1{
+        font-size: 2rem;
+    }
+    
+    .header-content p{
+        font-style: 2rem;
+        padding: 25px 0 100px 0;
+    }
+    
+    .header-content button{
+        padding: 15px 25px;
+
+    }
+
+    .about{
+        width: 100%;
+        height: 45vh;
+        margin-top: 5%;
+        padding: 5%;
+    }
+    
+    .about .text{
+        width: 30%;
+        float: left;
+        height: 40%;
+    }
+    
+    .about .text{
+        width: 50%;
+        float: left;
+        height: 40%;
+        padding: 40px 100px 0 0;
+    }
+    
+    .about .text h1 {
+        font-size: 3rem;
+        color: rgb(52,52,52);
+    } 
+    
+    .about .text p {
+        font-size: 1rem;
+        padding: 20px 0 30px;
+    }
+    
+    .about .text button{
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+    
+    .about img{
+        width: 40%;
+        float: left;
+        height: 80%; 
+        padding: 15px;
+    }
+    
+    
+    .info{
+        width: 100%;
+        height: 12vh;
+        padding: 10px 20px;
+    }
+    
+    .info h3 q{
+        font-size: 20px;
+    }
+    
+    .info p{
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    
+    
+    .services {
+        width: 90%;
+        height: 70vh;
+        
+        margin: 5%;
+    }
+    
+    .services .box {
+        width: 32%;
+        height: 100%;
+    }
+    
+    .services .center {
+        margin: 0 2%;
+    }
+    
+    .services .box img {
+        width: 100%;
+        height: 70%;
+    }
+    
+    .services .box .matn {
+        width: 100%;
+        height: 30%;
+        padding: 5% 15% 0 0;
+    }
+    
+    .services .box .matn h2 {
+        font-size: 30px;
+    }
+    
+    .services .box .matn p {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+    
+    .services .box .matn button {
+        font-size: 1rem;
+        padding: 7px 10px;
+    }
+    
+    footer{
+        width: 100%;
+        height: 300px;
+        background: rgb(18,23,51);
+        color: #fff;
+        padding: 100px 200px;
+    }
+    
+    footer .txt{
+        width: 40%;
+        float: left;
+    }
+    
+    footer .txt h2{
+        font-size: 30px;
+    }
+    
+    footer .txt address{
+        padding: 15px 0;
+        font-size: 20px;
+    }
+    
+    footer .links{
+        width: 50%;
+        margin-left: 10%;
+        float: left;
+    }
+    
+    footer .links ul{
+        float: left;
+        width: 16%;
+        margin: 0 2%;
+    }
+    
+    footer .links ul li{
+        list-style: none;
+        padding: 5px 0;
+    }
+    
+    footer .links ul li a{
+        color:#fff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    footer .links ul li a:hover{
+        text-decoration: underline;
+    }
+    
+    
+    
+}
+
+
+
+    
+@media only screen and (max-width: 450px){
+    
+}
